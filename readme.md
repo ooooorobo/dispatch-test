@@ -7,3 +7,7 @@ curl -L \
   https://api.github.com/repos/ooooorobo/dispatch-test/dispatches \
   -d '{"event_type": "test_result", "client_payload": {"message":"test"}}'
 ```
+
+토큰 권한
+- Metadata: Read access (default)
+- Contents: Read and Write
